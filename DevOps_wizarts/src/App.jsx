@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import Heather from "./components/Heather/heather";
+import { Header } from "./components/Header/header";
+import { Banner } from "./components/Banner/banner";
 
-function App() {
+export const App = () => {
   return (
     <div>
-      <Heather />
+      <Header />
+      <Banner />
     </div>
   );
-}
-
-export default App;
+};
