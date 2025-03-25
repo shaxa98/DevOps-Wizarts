@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "../../assets/layer-1.svg";
-import line92 from "../../assets/line-92.svg";
+import logo from "../../assets/logo.png";
+import logoMit from "../../assets/logo mit.png";
+import freeAudit from "../../assets/get-free-audit.svg";
 import "./Header.css";
 
 export const Header = () => {
@@ -26,15 +27,13 @@ export const Header = () => {
             <a href="#faq">FAQ</a>
           </li>
         </ul>
-
-        <button className="cta-button">Get Free Audit</button>
+        <button className="freeAudit">
+          <img className="freeAudit" src={freeAudit} alt="" />
+        </button>
       </nav>
 
       <div className="decorative-line">
-        <div className="circle large"></div>
-        <div className="circle small left"></div>
-        <img className="line" alt="Decorative Line" src={line92} />
-        <div className="circle small right"></div>
+        <img src={logoMit} alt="" />
       </div>
     </header>
   );
