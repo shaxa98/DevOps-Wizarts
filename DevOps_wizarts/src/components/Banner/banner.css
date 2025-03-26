@@ -1,21 +1,8 @@
 .banner {
-  justify-content: center;
-}
-.book {
-  text-align: right;
-  border-top: 100px;
-  float: right;
-  z-index: 1;
-}
+  /* background-color: aqua; */
+  /* width: 1600px;
 
-.title-banner {
-  z-index: 2;
-}
-.title-banner h1 {
-  color: aliceblue;
-  font-size: 70px;
-  font-family: "Myriad Pro-Regular", Helvetica;
-  text-decoration: none;
-  white-space: nowrap;
-  z-index: 2;
+  height: 800px;
+
+  border-left: 200px; */
 }

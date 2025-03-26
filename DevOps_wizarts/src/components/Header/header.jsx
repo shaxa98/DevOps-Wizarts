@@ -6,7 +6,7 @@ import "./Header.css";
 
 export const Header = () => {
   return (
-    <header className="header">
+    <header className="header" style={{ border: "none" }}>
       <nav className="nav">
         <img className="logo" alt="DevOps Wizards Logo" src={logo} />
 
@@ -27,7 +27,16 @@ export const Header = () => {
             <a href="#faq">FAQ</a>
           </li>
         </ul>
-        <button className="freeAudit">
+        <button
+          className="freeAudit"
+          style={{
+            border: "none",
+            background: "none",
+            padding: 0,
+            margin: 0,
+            cursor: "pointer",
+          }}
+        >
           <img className="freeAudit" src={freeAudit} alt="" />
         </button>
       </nav>

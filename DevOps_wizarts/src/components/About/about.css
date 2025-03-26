@@ -1,0 +1,15 @@
+.about {
+  padding: 50px;
+  background-color: #0f172a; /* Updated background color */
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #ffffff; /* Ensure text is readable on dark background */
+}
