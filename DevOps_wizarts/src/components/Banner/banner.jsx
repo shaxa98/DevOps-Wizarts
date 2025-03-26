@@ -1,5 +1,5 @@
 import React from "react";
-import book from "../../assets/book.svg";
+
 import WithMagic from "../../assets/withmagic.svg";
 import BannerBackground from "../../assets/banner-background.svg";
 import "./banner.css";
