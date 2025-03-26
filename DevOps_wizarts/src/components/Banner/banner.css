@@ -1,4 +1,18 @@
+.banner {
+  background-image: url("../../assets/Banner-bagraund.svg");
+  background-size: cover;
+}
 .book {
   text-align: right;
   border-top: 100px;
+  display: none;
+}
+
+.title-banner {
+  position: ;
+}
+.title-banner h1 {
+  color: aliceblue;
+  font-size: 70px;
+  font-family: "Myriad Pro-Regular", Helvetica;
 }
