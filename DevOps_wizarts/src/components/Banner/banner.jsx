@@ -5,14 +5,16 @@ import "./banner.css";
 
 function Banner() {
   return (
-    <div className="banner">
-      <div className="book">
-        <img src={book} alt="" />
-      </div>
-      <div className="title-banner">
-        <h1> WE TURN YOUR </h1>
-        <h1>IDEAS INTO REALITY</h1>
-        <img src={WithMagic} alt="" />
+    <div>
+      <div className="banner">
+        <div className="book">
+          <div className="title-banner">
+            <h1> WE TURN YOUR </h1>
+            <h1>IDEAS INTO REALITY</h1>
+            <img src={WithMagic} alt="" />
+          </div>
+          <img src={book} alt="" />
+        </div>
       </div>
     </div>
   );
