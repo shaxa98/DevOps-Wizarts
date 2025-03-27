@@ -7,6 +7,7 @@ import About from "./components/About/about";
 import WhatIsDevOps from "./components/WhatIsDevOps/whatIsDevOps";
 import WhyUs from "./components/WhyUs/whyUs";
 import OurRange from "./components/OurRange/ourRange"; // Import the OurRange component
+import RoadMap from "./components/RoadMap/RoadMap";
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
         <WhatIsDevOps />
         <WhyUs />
         <OurRange /> {/* Add the OurRange component */}
+        <RoadMap />
       </div>
     </div>
   );
