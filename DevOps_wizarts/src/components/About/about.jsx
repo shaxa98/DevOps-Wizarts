@@ -15,14 +15,7 @@ function About() {
         width: "100%",
         height: "100vh",
       }}
-    >
-      <h2>About Us</h2>
-      <p>
-        We are DevOps Wizards, dedicated to turning your ideas into reality with
-        the magic of DevOps. Our team specializes in delivering efficient and
-        scalable solutions tailored to your needs.
-      </p>
-    </section>
+    ></section>
   );
 }
 
