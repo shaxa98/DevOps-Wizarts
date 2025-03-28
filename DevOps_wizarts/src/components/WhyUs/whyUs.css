@@ -2,5 +2,15 @@
   width: 30%;
   min-width: 200px;
   max-width: 400px;
-  background-color: blue;
+  display: flex;
+  flex-direction: column; /* Elementlarni tepadan pastga joylashtirish */
+  align-items: center;
+}
+.cards h1 {
+  color: blue;
+  text-align: center;
+}
+.cards h2 {
+  color: #ffffff;
+  text-align: center;
 }
