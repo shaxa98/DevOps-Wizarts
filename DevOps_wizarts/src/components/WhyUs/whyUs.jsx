@@ -41,10 +41,11 @@ function WhyUs() {
             style={{
               display: "flex",
               flexDirection: "row",
+              justifyContent: "center",
             }}
           >
             <h1 style={{ color: "white", fontSize: "56px" }}>
-              Why DevOps <img src={Wizards} alt="" /> ?
+              Why DevOps <img src={Wizards} alt="" />?
             </h1>
           </div>
         </div>
