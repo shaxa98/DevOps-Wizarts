@@ -1,0 +1,32 @@
+.headerO {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  display: flex; /* Flexboxni yoqish */
+  flex-direction: row; /* Elementlarni yonma-yon joylashtirish */
+  justify-content: space-between; /* Elementlar orasida teng masofa */
+  align-items: center; /* Vertikal markazlash */
+}
+.header h1 {
+  color: rgb(255, 255, 255); /* Matn rangi */
+  text-align: center; /* Matnni markazlash */
+}
+.button {
+  padding: 10px; /* Tugma ichidagi bo'shliq */
+}
+.container {
+  display: flex; /* Flexboxni yoqish */
+  flex-direction: row; /* Elementlarni yonma-yon joylashtirish */
+  justify-content: space-between; /* Elementlar orasida teng masofa */
+  align-items: center; /* Vertikal markazlash */
+  width: 100%; /* Konteyner kengligi */
+  height: auto; /* Balandlikni avtomatik qilish */
+}
+
+.board {
+  width: 30%; /* Har bir elementning kengligi */
+  height: 500px; /* Element balandligi */
+  background-color: aqua; /* Orqa fon rangi */
+  text-align: center; /* Matnni markazlash */
+  padding: 10px; /* Ichki bo'shliq */
+}
