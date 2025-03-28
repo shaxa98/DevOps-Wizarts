@@ -5,7 +5,7 @@ import { Header } from "./components/Header/header";
 import Banner from "./components/Banner/banner";
 import About from "./components/About/about";
 import WhatIsDevOps from "./components/WhatIsDevOps/whatIsDevOps";
-import WhyUs from "./components/WhyUs/whyUs";
+import WhyUs from "./components/WhyUs/WhyUs";
 import OurRange from "./components/OurRange/ourRange"; // Import the OurRange component
 import RoadMap from "./components/RoadMap/RoadMap";
 import FAQ from "./components/FAQ/FAQ"; // Import the FAQ component
