@@ -6,6 +6,7 @@ import Child2img from "../../assets/Child2image.svg";
 import Child3img from "../../assets/Child3image.svg";
 import Child4img from "../../assets/Child4image.svg";
 import Child5img from "../../assets/Child5image.svg";
+import Wizards from "../../assets/Wizarts.svg";
 
 function WhyUs() {
   return (
@@ -36,9 +37,16 @@ function WhyUs() {
           <h3 style={{ color: "blue", textTransform: "uppercase" }}>
             More reason to join
           </h3>
-          <h1 style={{ color: "white", fontSize: "56px" }}>
-            Why DevOps Wizard
-          </h1>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <h1 style={{ color: "white", fontSize: "56px" }}>
+              Why DevOps <img src={Wizards} alt="" /> ?
+            </h1>
+          </div>
         </div>
         <div
           style={{
