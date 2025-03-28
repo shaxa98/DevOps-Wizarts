@@ -16,7 +16,7 @@ function About() {
         height: "100vh",
       }}
     >
-      <div style={{ padding: "20px", textAlign: "left" }}>
+      <div style={{ padding: "20px", textAlign: "left", lineHeight: "1.8" }}>
         <p style={{ color: "blue", fontSize: "32px" }}>Cool but who we are?</p>
         <h2 style={{ color: "white", fontSize: "52px" }}>About DevOps</h2>
         <p style={{ color: "white", fontSize: "32px" }}>
