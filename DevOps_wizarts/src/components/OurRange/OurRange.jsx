@@ -3,6 +3,15 @@ import backgroundImage from "../../assets/OurRangBacgraund.svg";
 import "./ourRange.css";
 import ButtonRightside from "../../assets/ButtonRightside.svg";
 import ButtonLeftside from "../../assets/ButtonLeftside.svg";
+import Icon1 from "../../assets/OurRange/01.svg";
+import Icon2 from "../../assets/OurRange/02.svg";
+import Icon3 from "../../assets/OurRange/03.svg";
+import Icon4 from "../../assets/OurRange/04.svg";
+import Icon5 from "../../assets/OurRange/05.svg";
+import Icon6 from "../../assets/OurRange/06.svg";
+import Icon7 from "../../assets/OurRange/07.svg";
+import Icon8 from "../../assets/OurRange/08.svg";
+import Icon9 from "../../assets/OurRange/09.svg";
 function OurRange() {
   return (
     <div
