@@ -31,5 +31,32 @@
   background-position: center; /* Rasmni markazlash */
   background-repeat: no-repeat; /* Rasmni takrorlanishini o'chirish */
   text-align: center; /* Matnni markazlash */
-  padding: 10px; /* Ichki bo'shliq */
+  padding: 100px; /* Ichki bo'shliq */
+  padding-top: 60px;
+  display: "flex";
+  align-items: "center";
+}
+
+.FirstLine h1 {
+  color: rgb(255, 255, 255); /* Matn rangi */
+  font-size: 36px; /* Matn o'lchami */
+  margin-bottom: 10px; /* Pastki bo'shliq */
+  text-align: start;
+}
+.board p {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+.FirstLine img {
+  width: "100px";
+  height: "100px";
+  margin-right: "150px";
+}
+.FirstLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
