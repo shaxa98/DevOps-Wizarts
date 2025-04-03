@@ -41,7 +41,7 @@ function OurRange() {
           <p>Maintain optimal system performance with thorough monitoring.</p>
         </div>
         <div className="board">
-          <div style={{}}>
+          <div>
             <img src={Icon2} alt="" />
             <h1>Service 2</h1>
           </div>

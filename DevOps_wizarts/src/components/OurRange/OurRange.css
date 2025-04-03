@@ -39,24 +39,21 @@
 
 .FirstLine h1 {
   color: rgb(255, 255, 255); /* Matn rangi */
-  font-size: 36px; /* Matn o'lchami */
+  font-size: 32px; /* Matn o'lchami */
   margin-bottom: 10px; /* Pastki bo'shliq */
   text-align: start;
+  margin-left: 50px;
 }
 .board p {
   color: rgb(255, 255, 255);
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 26px;
+
   text-align: start;
 }
-.FirstLine img {
-  width: "100px";
-  height: "100px";
-  margin-right: "150px";
-}
+
 .FirstLine {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
