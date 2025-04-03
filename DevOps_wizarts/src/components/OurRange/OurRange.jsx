@@ -41,18 +41,32 @@ function OurRange() {
           <p>Maintain optimal system performance with thorough monitoring.</p>
         </div>
         <div className="board">
-          <div>
+          <div className="FirstLine">
             <img src={Icon2} alt="" />
-            <h1>Service 2</h1>
+            <h1>
+              Security <br />
+              (DevSecOps)
+            </h1>
           </div>
-          <p>Description for service 2.</p>
+          <p>
+            Using cutting-edge technologies, we fully automate the detection of
+            security vulnerabilities, ensuring the high quality of your codebase
+            and identifying vulnerabilities in your application and its
+            dependencies before deployment.
+          </p>
         </div>
         <div className="board">
-          <div>
+          <div className="FirstLine">
             <img src={Icon3} alt="" />
-            <h1>Service 3</h1>
+            <h1>
+              Containerization <br /> & Orchestration
+            </h1>
           </div>
-          <p>Description for service 3.</p>
+          <p>
+            Containerization and orchestration services streamline the
+            management and scaling of applications, making them more eﬃcient and
+            easier to deploy.
+          </p>
         </div>
       </div>
     </div>

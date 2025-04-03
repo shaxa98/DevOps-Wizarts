@@ -5,49 +5,53 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; /* Vertikal markazlash */
+  align-items: center;
 }
 .headerO h1 {
-  color: rgb(255, 255, 255); /* Matn rangi */
-  text-align: center; /* Matnni markazlash */
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 .button {
-  padding: 10px; /* Tugma ichidagi bo'shliq */
+  padding: 10px;
 }
 .containerO {
-  display: flex; /* Flexboxni yoqish */
-  flex-direction: row; /* Elementlarni yonma-yon joylashtirish */
-  justify-content: space-between; /* Elementlar orasida teng masofa */
-  align-items: center; /* Vertikal markazlash */
-  width: 100%; /* Konteyner kengligi */
-  height: auto; /* Balandlikni avtomatik qilish */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 
 .board {
   width: 30%;
   height: 500px;
-  background-image: url("../../assets/Frame.svg"); /* Orqa fon rasmi */
-  background-size: cover; /* Rasmni butun elementni qoplash uchun o'lchash */
-  background-position: center; /* Rasmni markazlash */
-  background-repeat: no-repeat; /* Rasmni takrorlanishini o'chirish */
-  text-align: center; /* Matnni markazlash */
-  padding: 100px; /* Ichki bo'shliq */
+  background-image: url("../../assets/Frame.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 80px;
   padding-top: 60px;
   display: "flex";
   align-items: "center";
 }
-
+.FirstLine img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
 .FirstLine h1 {
-  color: rgb(255, 255, 255); /* Matn rangi */
-  font-size: 32px; /* Matn o'lchami */
-  margin-bottom: 10px; /* Pastki bo'shliq */
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin-bottom: 10px;
   text-align: start;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .board p {
   color: rgb(255, 255, 255);
-  font-size: 26px;
-
+  font-size: 20px;
+  line-height: 35px;
   text-align: start;
 }
 
@@ -56,4 +60,5 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 20px;
 }
