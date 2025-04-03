@@ -20,7 +20,7 @@ function OurRange() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         width: "100%",
-        height: "100vh",
+        height: "75vh",
       }}
     >
       <div className="headerO">

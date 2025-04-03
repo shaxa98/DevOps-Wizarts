@@ -7,7 +7,7 @@ import About from "./components/About/about";
 import WhatIsDevOps from "./components/WhatIsDevOps/whatIsDevOps";
 import WhyUs from "./components/WhyUs/WhyUs";
 import OurRange from "./components/OurRange/ourRange"; // Import the OurRange component
-import RoadMap from "./components/RoadMap/RoadMap";
+import RoadMap from "./components/RoadMap/roadMap";
 import FAQ from "./components/FAQ/FAQ"; // Import the FAQ component
 import Section from "./components/Section/Section"; // Import the Section component
 import Footer from "./components/Footer/Footer"; // Import the Footer component
