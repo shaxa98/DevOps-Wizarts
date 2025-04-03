@@ -1,6 +1,6 @@
 .what-is-devops {
   padding: 50px;
-  background-color: #0f172a; /* Updated background color */
+  background-color: #0f172a;
   text-align: center;
 }
 
@@ -11,5 +11,5 @@
 
 .what-is-devops p {
   font-size: 18px;
-  color: #ffffff; /* Ensure text is readable on dark background */
+  color: #ffffff;
 }

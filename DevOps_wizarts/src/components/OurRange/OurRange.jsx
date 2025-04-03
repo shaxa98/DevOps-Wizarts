@@ -7,8 +7,8 @@ function OurRange() {
   return (
     <div
       style={{
-        // backgroundImage: `url(${backgroundImage})`,
-        backgroundColor: "red",
+        backgroundImage: `url(${backgroundImage})`,
+
         backgroundSize: "cover",
         backgroundPosition: "center",
         width: "100%",
@@ -22,7 +22,7 @@ function OurRange() {
         </div>
         <h1>Our Range of services</h1>
       </div>
-      <div className="container">
+      <div className="containerO">
         <div className="board">board1</div>
         <div className="board">board2</div>
         <div className="board">board3</div>

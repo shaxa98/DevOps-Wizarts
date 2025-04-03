@@ -2,19 +2,19 @@
   width: 100%;
   height: 150px;
   padding: 10px;
-  display: flex; /* Flexboxni yoqish */
-  flex-direction: row; /* Elementlarni yonma-yon joylashtirish */
-  justify-content: space-between; /* Elementlar orasida teng masofa */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center; /* Vertikal markazlash */
 }
-.header h1 {
+.headerO h1 {
   color: rgb(255, 255, 255); /* Matn rangi */
   text-align: center; /* Matnni markazlash */
 }
 .button {
   padding: 10px; /* Tugma ichidagi bo'shliq */
 }
-.container {
+.containerO {
   display: flex; /* Flexboxni yoqish */
   flex-direction: row; /* Elementlarni yonma-yon joylashtirish */
   justify-content: space-between; /* Elementlar orasida teng masofa */
@@ -24,9 +24,12 @@
 }
 
 .board {
-  width: 30%; /* Har bir elementning kengligi */
-  height: 500px; /* Element balandligi */
-  background-color: aqua; /* Orqa fon rangi */
+  width: 30%;
+  height: 500px;
+  background-image: url("../../assets/Frame.svg"); /* Orqa fon rasmi */
+  background-size: cover; /* Rasmni butun elementni qoplash uchun o'lchash */
+  background-position: center; /* Rasmni markazlash */
+  background-repeat: no-repeat; /* Rasmni takrorlanishini o'chirish */
   text-align: center; /* Matnni markazlash */
   padding: 10px; /* Ichki bo'shliq */
 }

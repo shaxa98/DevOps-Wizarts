@@ -10,8 +10,8 @@ function WhatIsDevOps() {
       style={{
         border: "none",
         backgroundImage: `url(${WhatisDevopsBackground})`,
-        backgroundSize: "cover", // Ensure the image covers the entire section
-        backgroundPosition: "center", // Center the image
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         width: "100%",
         height: "100vh",
@@ -26,7 +26,7 @@ function WhatIsDevOps() {
         style={{
           width: "50%",
           height: "auto",
-          marginRight: "20px", // Add spacing between the image and text
+          marginRight: "20px",
         }}
       />
       <div style={{ flex: 1, textAlign: "left" }}>

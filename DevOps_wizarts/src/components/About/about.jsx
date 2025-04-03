@@ -9,8 +9,8 @@ function About() {
       style={{
         border: "none",
         backgroundImage: `url(${AboutBackground})`,
-        backgroundSize: "contain", // Ensure the image fits within the screen
-        backgroundPosition: "left center", // Align the image to the left
+        backgroundSize: "contain",
+        backgroundPosition: "left center",
         backgroundRepeat: "no-repeat",
         width: "100%",
         height: "100vh",

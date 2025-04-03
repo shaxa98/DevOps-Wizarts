@@ -22,7 +22,7 @@ function WhyUs() {
       }}
     >
       <div
-        className="container"
+        className="containerWS"
         style={{
           margin: "0 200px",
           height: "100%",
