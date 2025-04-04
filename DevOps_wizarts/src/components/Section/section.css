@@ -1,7 +1,7 @@
 .SectionRight {
   height: 80%;
   width: 45%;
-  background-color: aqua;
+  /* background-color: aqua; */
   position: relative;
   top: 100px;
 }
@@ -14,7 +14,7 @@
   left: 100px;
 }
 .SectionLeft h1 {
-  font-size: 40px;
+  font-size: 45px;
   color: white;
   position: relative;
   top: 100px;
