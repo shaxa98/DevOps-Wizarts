@@ -1,6 +1,6 @@
 import React from "react";
 import backgroundImage from "../../assets/SectionBacgraund.svg";
-
+import "./section.css";
 function Section() {
   return (
     <div
@@ -10,9 +10,18 @@ function Section() {
         backgroundPosition: "center",
         width: "100%",
         height: "100vh",
+        display: "flex",
       }}
     >
-      <div>Section Component</div>
+      <div className="SectionLeft">
+        <h1>
+          Revolutionize your
+          <br /> business processes with
+          <br /> our DevOps expertise
+        </h1>
+        <p>You can reach us anytime via contact@devops-wizards.eu</p>
+      </div>
+      <div className="SectionRight"></div>
     </div>
   );
 }

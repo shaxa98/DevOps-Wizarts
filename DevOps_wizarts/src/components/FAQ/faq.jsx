@@ -1,5 +1,6 @@
 import React from "react";
 import backgroundImage from "../../assets/FaqBacgraund.svg";
+import ReactModal from "react-modal";
 
 function FAQ() {
   return (
