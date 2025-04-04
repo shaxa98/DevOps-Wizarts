@@ -27,7 +27,6 @@
   height: 100%;
 }
 .RoadmapBody3 {
-  background-color: rgb(112, 42, 165);
   width: 45%;
   height: 100%;
 }
@@ -45,7 +44,7 @@
   margin: 10px;
   margin-left: 30px;
 }
-.Text h1 {
+.Text1 {
 }
 .Text p {
 }
@@ -56,4 +55,26 @@
   width: 100%;
   height: auto;
   padding: 10px;
+  position: relative;
+  top: 150px;
+}
+.Text1 {
+  margin-bottom: 300px;
+}
+.Text2 {
+  margin-bottom: 300px;
+}
+.RoadmapBodyTitl3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  top: 330px;
+}
+.Text1-1 {
+  position: relative;
+  margin-bottom: 300px;
 }

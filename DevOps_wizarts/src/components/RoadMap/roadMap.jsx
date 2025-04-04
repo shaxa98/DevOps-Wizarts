@@ -90,10 +90,6 @@ function roadmap() {
                   <br /> You make the final payment only when satisfied.
                 </p>
               </div>
-              <div className="Text3-3">
-                <h1></h1>
-                <p></p>
-              </div>
             </div>
           </div>
         </div>
