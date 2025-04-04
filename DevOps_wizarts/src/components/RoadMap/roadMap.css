@@ -1,23 +1,59 @@
 .Roadmap {
-  background-color: brown;
   color: white;
 }
 .RoadmapHeader {
   width: 100%;
-  height: 130px;
+  height: 120px;
+  padding: 10px;
 }
-.RodadmapBody1 {
-  background-color: brown;
-  width: 40%;
+.RoadmapBody {
+  color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1230px;
+  display: flex;
+  align-items: start;
+  padding: 5px;
+
+  justify-content: flex-start;
+}
+.RoadmapBody1 {
+  /* background-color: rgb(46, 42, 165); */
+  width: 45%;
   height: 100%;
 }
-.RodadmapBody2 {
-  background-color: brown;
-  width: 20%;
+.RoadmapBody2 {
+  width: 10%;
   height: 100%;
 }
-.RodadmapBody3 {
-  background-color: brown;
-  width: 40%;
+.RoadmapBody3 {
+  background-color: rgb(112, 42, 165);
+  width: 45%;
   height: 100%;
+}
+.RoadmapHeader p {
+  font-size: 16px;
+
+  color: blue;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.RoadmapHeader h1 {
+  font-size: 50px;
+  color: white;
+  margin: 10px;
+  margin-left: 30px;
+}
+.Text h1 {
+}
+.Text p {
+}
+.RoadmapBodyTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+  padding: 10px;
 }
