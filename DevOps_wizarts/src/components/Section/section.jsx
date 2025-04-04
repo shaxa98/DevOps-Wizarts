@@ -24,26 +24,38 @@ function Section() {
       <div className="SectionRight">
         <div className="input1">
           <p>Name Surname</p>
-          <input type="text" placeholder="Your Full Name" class="input-field" />
+          <input
+            type="text"
+            placeholder="Your Full Name"
+            class="input-field"
+            className="input"
+          />
         </div>
-        <div className="input2">
+        <div className="input1">
           <p>Email</p>
           <input
             type="text"
             placeholder="your@company.com"
             class="input-field"
+            className="input"
           />
         </div>
-        <div className="input3">
+        <div className="input1">
           <p>Phone number</p>
-          <input type="text" placeholder="+371 29999999" class="input-field" />
+          <input
+            type="text"
+            placeholder="+371 29999999"
+            class="input-field"
+            className="input"
+          />
         </div>
-        <div className="input4">
+        <div className="input1">
           <p>Your message</p>
           <input
             type="text"
             placeholder="Type your message here..."
             class="input-field"
+            className="inputYourMessage"
           />
         </div>
 
