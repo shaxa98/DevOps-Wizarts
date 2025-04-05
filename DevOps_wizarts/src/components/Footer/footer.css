@@ -5,21 +5,42 @@
 .topLeft {
   width: 45%;
   height: 100px;
+  padding-left: 50px;
 }
 .topLeft p {
   color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.topLeft img {
+  width: 250px;
+  height: auto;
 }
 .topRight {
   width: 45%;
   height: 100px;
-  background-color: rgb(222, 241, 241);
 }
-.footerBottom div {
-  width: 95%;
-  height: 100px;
-  background-color: rgb(222, 241, 241);
+.FooterIcons img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
 }
+.FooterIcons {
+  position: relative;
+  left: 500px;
+}
+
 .footerBottom {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerBottom img {
+  width: 95%;
+  margin-top: 50px;
+}
+.footerBottom p {
+  color: white;
+  font-size: 16px;
 }

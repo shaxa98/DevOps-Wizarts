@@ -15,7 +15,7 @@ function footer() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         width: "100%",
-        height: "200px", // Adjust height as needed
+        height: "260px", // Adjust height as needed
       }}
     >
       <div>
@@ -25,10 +25,18 @@ function footer() {
             <p>privacy policy</p>
             <p>Terms of use</p>
           </div>
-          <div className="topRight"></div>
+          <div className="topRight">
+            <div className="FooterIcons">
+              <img src={TwitterLogo} alt="" />
+              <img src={FacebookLogo} alt="" />
+              <img src={InstaLogo} alt="" />
+              <img src={GitLogo} alt="" />
+            </div>
+          </div>
         </div>
         <div className="footerBottom">
-          <div></div>
+          <img src={FooterLine} alt="" />
+          <p>© Copyright 2024, All Rights Reserved by DevOps Wizards</p>
         </div>
       </div>
     </div>
