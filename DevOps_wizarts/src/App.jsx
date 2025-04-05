@@ -11,6 +11,11 @@ import RoadMap from "./components/RoadMap/roadMap";
 import FAQ from "./components/FAQ/FAQ"; // Import the FAQ component
 import Section from "./components/Section/Section"; // Import the Section component
 import Footer from "./components/Footer/Footer"; // Import the Footer component
+// Fonts
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
 
 export const App = () => {
   return (

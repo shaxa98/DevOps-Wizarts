@@ -1,15 +1,56 @@
-.about {
-  padding: 50px;
-  background-color: #0f172a;
-  text-align: center;
+.About {
+  background-image: url("../../assets/AboutBacgraund.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.AboutLeft {
+  width: 50%;
+  height: 100%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.AboutLeft h2 {
+  color: rgb(0, 136, 255);
+  max-width: 100%;
+  max-height: 100%;
+  width: 60%;
+  margin-bottom: 5%;
+}
+.AboutLeft img {
+  max-width: 130%;
+  max-height: 130%;
+  width: 110%;
+  height: auto;
+  margin-bottom: 10%;
+}
+.AboutLeft p {
+  color: white;
+  max-width: 110%;
+  max-height: 150%;
+  width: 200%;
+
+  margin-bottom: 5%;
 }
 
-.about h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
+.AboutRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.about p {
-  font-size: 18px;
-  color: #ffffff;
+.AboutRight img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 75%;
+  height: auto;
+  position: relative;
+}
+.AboutRight h1 {
+  color: aliceblue;
 }

@@ -1,21 +1,26 @@
 import React from "react";
-import backgroundImage from "../../assets/FaqBacgraund.svg";
-import ReactModal from "react-modal";
+import { Typography, Container } from "@mui/material";
+import AccordionComponent from "../Accordion";
+import { faqList } from "./data.js";
 
-function FAQ() {
+const FAQ = () => {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        width: "100%",
-        height: "100vh",
-      }}
-    >
-      <h1>Faq component</h1>
-    </div>
+    <Container maxWidth="xl" sx={{ padding: "100px" }}>
+      <Typography variant="h5" align="right" color="blue">
+        Everything you need to know about our services
+      </Typography>
+      <Typography variant="h2" align="right" color="white">
+        Frequently Asked Questions
+      </Typography>
+      {faqList.map((faq, index) => (
+        <AccordionComponent
+          key={index}
+          title={faq.title}
+          details={faq.details}
+        />
+      ))}
+    </Container>
   );
-}
+};
 
 export default FAQ;

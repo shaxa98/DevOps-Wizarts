@@ -27,7 +27,7 @@ function Section() {
           <input
             type="text"
             placeholder="Your Full Name"
-            class="input-field"
+            className="input-field"
             className="input"
           />
         </div>
@@ -36,7 +36,7 @@ function Section() {
           <input
             type="text"
             placeholder="your@company.com"
-            class="input-field"
+            className="input-field"
             className="input"
           />
         </div>
@@ -45,7 +45,7 @@ function Section() {
           <input
             type="text"
             placeholder="+371 29999999"
-            class="input-field"
+            className="input-field"
             className="input"
           />
         </div>
@@ -54,7 +54,7 @@ function Section() {
           <input
             type="text"
             placeholder="Type your message here..."
-            class="input-field"
+            className="input-field"
             className="inputYourMessage"
           />
         </div>
