@@ -1,5 +1,25 @@
-.topleft {
-  width: 50%;
-  height: 50%;
-  background-color: aqua;
+.footerTop {
+  display: flex;
+  justify-content: space-around;
+}
+.topLeft {
+  width: 45%;
+  height: 100px;
+}
+.topLeft p {
+  color: white;
+}
+.topRight {
+  width: 45%;
+  height: 100px;
+  background-color: rgb(222, 241, 241);
+}
+.footerBottom div {
+  width: 95%;
+  height: 100px;
+  background-color: rgb(222, 241, 241);
+}
+.footerBottom {
+  display: flex;
+  justify-content: space-around;
 }

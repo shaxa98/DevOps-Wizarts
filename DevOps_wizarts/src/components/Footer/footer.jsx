@@ -5,6 +5,8 @@ import GitLogo from "../../assets/GitHubLogo.svg";
 import FacebookLogo from "../../assets/FacebookLogo.svg";
 import InstaLogo from "../../assets/InstagramLogo.svg";
 import TwitterLogo from "../../assets/TwitterLogo.svg";
+import FooterLine from "../../assets/FooterLine.svg";
+import DevLogo from "../../assets/DeOpsWizarts.svg";
 function footer() {
   return (
     <div
@@ -17,12 +19,17 @@ function footer() {
       }}
     >
       <div>
-        footer
         <div className="footerTop">
-          <div className="topleft"></div>
+          <div className="topLeft">
+            <img src={DevLogo} alt="" />
+            <p>privacy policy</p>
+            <p>Terms of use</p>
+          </div>
           <div className="topRight"></div>
         </div>
-        <div className="footerBottom"></div>
+        <div className="footerBottom">
+          <div></div>
+        </div>
       </div>
     </div>
   );
