@@ -1,7 +1,7 @@
 import React from "react";
 
-import WithMagic from "../../assets/withmagic.svg";
 import BannerBackground from "../../assets/banner-background.svg";
+import BookImage from "../../assets/book.svg";
 import "./banner.css";
 
 function Banner() {
@@ -24,11 +24,13 @@ function Banner() {
       <div
         style={{
           color: "white",
-          padding: "20px", // Padding for the text container
+          padding: "20px",
           position: "relative",
-          bottom: "50px", // Move upwards
+          bottom: "50px",
         }}
       >
+        <img className="BookImage" src={BookImage} alt="" />
+
         <h1
           style={{
             fontSize: "48px",
