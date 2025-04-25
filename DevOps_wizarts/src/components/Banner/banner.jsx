@@ -29,7 +29,9 @@ function Banner() {
           bottom: "50px",
         }}
       >
-        <img className="BookImage" src={BookImage} alt="" />
+        <div className="book">
+          <img className="BookImage" src={BookImage} alt="" />
+        </div>
 
         <h1
           style={{
